@@ -9,7 +9,7 @@ time_varying_parameter:
 interventions:
   'n_gradual_steps': 8 # if not using a csv and if scaleup date < 2099 in master yaml
   'trigger_channel': 'crit_det'
-  'bvariant_csv': ""
+  'bvariant_csv': "bvariant_70perc1May.csv" # bvariant_50perc1May.csv
   'vaccination_csv': "vaccination_linear.csv" #"vaccination_linear_doubled.csv"
   'reopen_relative_to_initial': False
   'reopen_regionspecific': False
